@@ -1,0 +1,13 @@
+# Gradle
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# IntelliJ
+.idea
+out
+*.iml
+*.ipr
+*.iws
