@@ -1,4 +1,4 @@
-package methodParamsInjectDemo;
+package junit5.methodParamsInjectDemo;
 
 import org.junit.jupiter.api.*;
 
