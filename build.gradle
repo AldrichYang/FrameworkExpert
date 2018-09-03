@@ -12,9 +12,28 @@ repositories {
 }
 
 dependencies {
+//    guava
+    compile('com.google.guava:guava:19.0')
+//    gson
+    compile('com.google.code.gson:gson:2.3.1')
+//    简化pojo的声明
     compile('org.projectlombok:lombok:1.18.2')
+//    断言类库hamcrest
     compile 'org.hamcrest:hamcrest-core:1.3'
     compile 'org.hamcrest:hamcrest-junit:2.0.0.0'
+//    jboss编解码
+    compile 'org.jboss.marshalling:jboss-marshalling:1.3.0.CR9'
+    compile 'org.jboss.marshalling:jboss-marshalling-serial:1.3.0.CR9'
+//    google protobuf
+    compile 'com.google.protobuf:protobuf-java:3.5.1'
+//    netty
+    compile 'io.netty:netty-all:4.1.25.Final'
+//    logback
+    compile 'ch.qos.logback:logback-core:1.1.5'
+    compile 'ch.qos.logback:logback-classic:1.1.5'
+    compile 'ch.qos.logback:logback-access:1.1.5'
+    compile 'org.slf4j:jul-to-slf4j:1.7.7'
+//    Junit 5
     testCompile('org.junit.jupiter:junit-jupiter-api:5.2.0')
     testRuntime('org.junit.jupiter:junit-jupiter-engine:5.2.0')
 }
